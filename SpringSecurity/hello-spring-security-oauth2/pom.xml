@@ -31,13 +31,7 @@
 			<url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
 		</license>
 	</licenses>
-	<developers>
-		<developer>
-			<id>liwemin</id>
-			<name>Lusifer Lee</name>
-			<email>lee.lusifer@gmail.com</email>
-		</developer>
-	</developers>
+
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -76,7 +70,7 @@
 								<exclude>**/Abstract*.java</exclude>
 							</excludes>
 							<systemPropertyVariables>
-								<java.security.egd>file:/dev/./urandom</java.security.egd>
+								<java.security.egd>file:/dev/./dom</java.security.egd>
 								<java.awt.headless>true</java.awt.headless>
 							</systemPropertyVariables>
 						</configuration>

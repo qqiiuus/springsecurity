@@ -7,10 +7,9 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.funtl</groupId>
 	<artifactId>hello-spring-security-oauth2-dependencies</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>pom</packaging>
+	<packaging>jar</packaging>
 	<properties>
 		<spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
 	</properties>
@@ -20,13 +19,6 @@
 			<url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
 		</license>
 	</licenses>
-	<developers>
-		<developer>
-			<id>liwemin</id>
-			<name>Lusifer Lee</name>
-			<email>lee.lusifer@gmail.com</email>
-		</developer>
-	</developers>
 	<dependencyManagement>
 		<dependencies>
 			<dependency>

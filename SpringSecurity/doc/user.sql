@@ -1,3 +1,4 @@
+use pinyougou;
 create table clientdetails
 (
     appId                  varchar(128)  not null
